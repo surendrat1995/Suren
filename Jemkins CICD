@@ -1,0 +1,8 @@
+# app.py
+def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print("Jenkins CI/CD test running...")
+    result = add(5, 7)
+    print(f"Sum is: {result}")
